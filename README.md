@@ -13,17 +13,18 @@ We probably want to manually add mall data in the beginning - computer vision is
 
 Mall maps: q/2009/11/16/mall-maps-for-iphone-helps-you-navigate-shopping-malls-with-ease/
 
+Algorithm and processing: python, google OR tools https://code.google.com/p/or-tools/
 
 TECHNOLOGIES:
 
 backend: python/flask
 open cv - computer vision library
 Algorithm and processing: python, google OR tools https://code.google.com/p/or-tools/
+google maps api
+facebook api
 
 ROLES:
 Matt - front end (moqups, photoshop), database (mongo), back end (python, flask)
 Raymond - 
 Nathan - 
-Sridatt - 
-
-SECRET CODE: "swag"
+Sridatt - iOS (objective c)
