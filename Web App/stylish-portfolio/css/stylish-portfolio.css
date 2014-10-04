@@ -46,8 +46,8 @@ body {
 
 .btn-light {
     border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
+    color: white;
+    background-color: rgb(52, 153, 219);
 }
 
 .btn-light:hover,
@@ -154,8 +154,9 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    height: 90%;
+    /*background: url(../img/bg.jpg) no-repeat center center scroll;*/
+    background-color: #FFA330;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -164,9 +165,23 @@ hr.small {
 
 /* About */
 
+
 .about {
     padding: 50px 0;
 }
+
+/* logo */
+
+#logo {
+    background: url(../img/logo.png);
+    height:120px;
+    width:120px;
+    background-size:120px;
+    margin-bottom:10px;
+    margin: 0 auto 10px auto;
+}
+
+
 
 /* Services */
 
@@ -233,7 +248,18 @@ hr.small {
 }
 
 /* Footer */
+p#copy_text{
+    color:white;
+    vertical-align:middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top:-5px;
+    font-size:16px;
+}
 
 footer {
-    padding: 100px 0;
+    height:65px;
+    padding: 30px 0;
+    background-color: rgb(52, 153, 219);
 }
